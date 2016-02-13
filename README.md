@@ -2,7 +2,7 @@
 This is the library to parse a yml file to a POJO.
 It can also resolve the environment variables.
 
-Add marathon-client as a dependency:
+Add ```yamlparser``` as a dependency:
 
 ```
 <dependency>
