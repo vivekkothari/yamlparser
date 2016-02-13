@@ -8,7 +8,7 @@ Add ```yamlparser``` as a dependency:
 <dependency>
   <groupId>com.github.vivekkothari</groupId>
   <artifactId>yamlparser</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
 </dependency>
 ```
 
