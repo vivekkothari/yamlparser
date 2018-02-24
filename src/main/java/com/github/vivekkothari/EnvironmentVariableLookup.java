@@ -1,6 +1,6 @@
 package com.github.vivekkothari;
 
-import org.apache.commons.lang3.text.StrLookup;
+import org.apache.commons.text.StrLookup;
 
 /**
  * @author vivek.kothari on 12/02/16.
@@ -19,13 +19,10 @@ public class EnvironmentVariableLookup
     /**
      * Create a new instance.
      *
-     * @param strict
-     *         {@code true} if looking up undefined environment variables should throw a
-     *         {@link RuntimeException}, {@code false} otherwise.
-     *
-     * @throws RuntimeException
-     *         if the environment variable doesn't exist and strict behavior
-     *         is enabled.
+     * @param strict {@code true} if looking up undefined environment variables should throw a
+     *               {@link RuntimeException}, {@code false} otherwise.
+     * @throws RuntimeException if the environment variable doesn't exist and strict behavior
+     *                          is enabled.
      */
     public EnvironmentVariableLookup(boolean strict) {
         this.strict = strict;
@@ -34,9 +31,8 @@ public class EnvironmentVariableLookup
     /**
      * {@inheritDoc}
      *
-     * @throws RuntimeException
-     *         if the environment variable doesn't exist and strict behavior
-     *         is enabled.
+     * @throws RuntimeException if the environment variable doesn't exist and strict behavior
+     *                          is enabled.
      */
     @Override
     public String lookup(String key) {

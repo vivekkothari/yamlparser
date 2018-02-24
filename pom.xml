@@ -6,7 +6,7 @@
     <groupId>com.github.vivekkothari</groupId>
     <artifactId>yamlparser</artifactId>
     <packaging>jar</packaging>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <name>yamlparser</name>
     <description>A Java API client for Mesosphere's Marathon.</description>
     <url>https://github.com/vivekkothari/yamlparser</url>
@@ -19,8 +19,8 @@
     </scm>
 
     <properties>
-        <snake.yml.version>1.16</snake.yml.version>
-        <commons.lang.version>3.4</commons.lang.version>
+        <snake.yml.version>1.19</snake.yml.version>
+        <commons.text.version>1.2</commons.text.version>
     </properties>
 
     <developers>
@@ -31,6 +31,7 @@
     </developers>
 
     <distributionManagement>
+
         <snapshotRepository>
             <id>ossrh</id>
             <name>Sonatype Nexus snapshot repository</name>
@@ -42,11 +43,7 @@
             <name>Sonatype Nexus release repository</name>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
         </repository>
-        <!--<repository>-->
-            <!--<id>clojars</id>-->
-            <!--<name>Clojars repository</name>-->
-            <!--<url>https://clojars.org/repo</url>-->
-        <!--</repository>-->
+
     </distributionManagement>
 
     <licenses>
@@ -66,8 +63,8 @@
 
         <dependency>
             <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-            <version>${commons.lang.version}</version>
+            <artifactId>commons-text</artifactId>
+            <version>${commons.text.version}</version>
         </dependency>
 
     </dependencies>
