@@ -8,7 +8,7 @@ Add ```yamlparser``` as a dependency:
 <dependency>
   <groupId>com.github.vivekkothari</groupId>
   <artifactId>yamlparser</artifactId>
-  <version>0.0.2</version>
+  <version>0.0.3</version>
 </dependency>
 ```
 
@@ -24,5 +24,5 @@ If there are any environment variables, defined as ```dbHost: ${DB_HOST}```, it 
 Libraries used:
 ```
 Snake YML
-Commons Lang
+Commons Text
 ```
