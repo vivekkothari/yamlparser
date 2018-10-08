@@ -21,7 +21,7 @@ Config config = YamlParser.loadWithEnvironmentResolution(new FileInputStream("co
 The above code will parse the ```config.yml``` file and map it to the ```Config```.
 If there are any environment variables, defined as ```dbHost: ${DB_HOST}```, it will try to resolve it and fail if it fails to resolve it.
 
-Libraries used:
+Open source Libraries used:
 ```
 Snake YML
 Commons Text
