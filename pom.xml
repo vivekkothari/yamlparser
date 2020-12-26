@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.vivekkothari</groupId>
     <artifactId>yamlparser</artifactId>
     <packaging>jar</packaging>
-    <version>0.0.4-SNAPSHOT</version>
+    <version>0.0.4</version>
     <name>yamlparser</name>
     <description>A Java API client for Mesosphere's Marathon.</description>
     <url>https://github.com/vivekkothari/yamlparser</url>
 
     <scm>
-        <tag>master</tag>
+        <tag>yamlparser-0.0.4</tag>
         <url>git@github.com:vivekkothari/yamlparser.git</url>
         <connection>scm:git:git@github.com:vivekkothari/yamlparser.git</connection>
         <developerConnection>scm:git:git@github.com:vivekkothari/yamlparser.git</developerConnection>
