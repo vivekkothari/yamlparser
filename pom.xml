@@ -6,7 +6,7 @@
     <groupId>com.github.vivekkothari</groupId>
     <artifactId>yamlparser</artifactId>
     <packaging>jar</packaging>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
     <name>yamlparser</name>
     <description>A Java API client for Mesosphere's Marathon.</description>
     <url>https://github.com/vivekkothari/yamlparser</url>
@@ -19,8 +19,11 @@
     </scm>
 
     <properties>
-        <snake.yml.version>1.19</snake.yml.version>
-        <commons.text.version>1.2</commons.text.version>
+        <snake.yml.version>1.27</snake.yml.version>
+        <commons.text.version>1.9</commons.text.version>
+        <junit.version>4.13.1</junit.version>
+        <google.truth.version>1.1</google.truth.version>
+        <system.rules.version>1.19.0</system.rules.version>
     </properties>
 
     <developers>
@@ -67,6 +70,27 @@
             <version>${commons.text.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.truth</groupId>
+            <artifactId>truth</artifactId>
+            <version>${google.truth.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.stefanbirkner</groupId>
+            <artifactId>system-rules</artifactId>
+            <version>1.19.0</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -74,10 +98,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.3</version>
+                <version>3.8.1</version>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>15</source>
+                    <target>15</target>
                 </configuration>
             </plugin>
         </plugins>
