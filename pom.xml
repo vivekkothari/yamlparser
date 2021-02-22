@@ -17,7 +17,7 @@
     </scm>
 
     <properties>
-        <snake.yml.version>1.27</snake.yml.version>
+        <snake.yml.version>1.28</snake.yml.version>
         <commons.text.version>1.9</commons.text.version>
         <junit.version>4.13.1</junit.version>
         <google.truth.version>1.1</google.truth.version>
